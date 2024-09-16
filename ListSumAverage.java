@@ -1,3 +1,5 @@
+package org.example.Arrays;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,7 +9,7 @@ public class ListSumAverage {
     public static void main(String args[])
     {
         List<Integer> integerList = new ArrayList<>();
-        Integer[] numbers = {4,5,0,9,8,10};
+        Integer[] numbers = {4,5,0,9,8,11,12};
         int sum=0;
         int average;
         integerList.addAll(Arrays.asList(numbers));
